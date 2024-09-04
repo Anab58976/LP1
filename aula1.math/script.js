@@ -27,3 +27,8 @@ console.log(math.max(7,45,89,2,125))
 let numeroAleatorio = Math.random()
 console.log(numeroAleatorio)
 
+const base = parseFloat(prompt("digite o numero que vc quer"));
+const expoente = parseFloat(prompt("digite o numero que vc quer elevado"));
+
+let resultado = math.pow(base,expoente)
+
